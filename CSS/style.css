@@ -24,10 +24,12 @@ a {
   background-position: center;
   background-size: cover;
 }
+
 .top__content {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .top__text {
   font-weight: 300;
   font-size: 18px;
@@ -35,6 +37,7 @@ a {
   color: #FFFFFF;
   margin-bottom: 44px;
 }
+
 .top__link {
   width: 234px;
   height: 48px;
@@ -50,6 +53,7 @@ a {
   background: #9C0332;
   border-radius: 30px;
 }
+
 .top__link:hover {
   background: #EB443F;
 }
