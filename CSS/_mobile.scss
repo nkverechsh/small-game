@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .center {
         padding-left: 16px;
@@ -7,6 +7,24 @@
 
     .top{
         height: 100vh;
+
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+        }
+
+        &__text {
+            text-align: center;
+        }
     }
-    
+
+    .title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+
 }
