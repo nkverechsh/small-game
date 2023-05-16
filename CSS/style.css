@@ -126,6 +126,7 @@ a {
     text-align: center;
   }
   .title {
+    padding-top: 238px;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
