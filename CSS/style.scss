@@ -77,11 +77,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    box-sizing: border-box;
     gap: 32px;
     padding-left: 16px;
     padding-right: 16px;
-
 
     &__box {
             width: 378px;
@@ -119,4 +117,6 @@ a {
         padding-left: 32px;
         padding-bottom: 32px;
     }
+
 }
+@import "mobile";
