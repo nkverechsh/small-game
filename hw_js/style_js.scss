@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ysabeau", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 900px);
+    padding-right: calc(50% - 900px);
+}
+
+.header {
+    background-image: url(./fon.jpg);
+    height: 100vh;
+}
+
+.top {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+
+    &__title {
+        font-size: 64px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__heading {
+        font-size: 28px;
+    }
+
+    &__link {
+        text-decoration-line: none;
+        transition: 0.3s;
+        color: red;
+
+        &:hover {
+            text-decoration: underline;
+            color: darkgreen
+        }
+    }
+}
