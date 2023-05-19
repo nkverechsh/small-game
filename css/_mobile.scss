@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top{
+        height: 100vh;
+
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+        }
+        
+        &__text {
+            text-align: center;
+        }
+    }
+
+    .title {
+        padding-top: 238px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    
+}
