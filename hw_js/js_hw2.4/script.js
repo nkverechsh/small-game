@@ -40,9 +40,10 @@ for (let n = 1000, num = 0; n > 50 ; num++) {
 
 // Задание 6
 for (let friday = 5, dayNum = 1; dayNum <= 31; dayNum++) {
-    if (dayNum !== friday){continue;}
+    if (dayNum === friday){
     friday+=7;
     alert(`Сегодня пятница, ${dayNum}-е число. Необходимо подготовить отчёт.`);
+    }
 }
 
 // // hw 2.3
