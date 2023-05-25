@@ -89,6 +89,7 @@ a {
 }
 .game__box:hover {
   border: 3px solid #44D2FF;
+  cursor: pointer;
 }
 .game__box_1 {
   background-image: url(../img/firstsectionGame1.jpg);
