@@ -147,10 +147,7 @@ a {
     justify-content: center;
   }
 }
-@media (max-width: 768px) {
-  .season {
-    justify-content: center;
-  }
+@media (max-width: 769px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -173,5 +170,26 @@ a {
     font-size: 32px;
     line-height: 39px;
     text-align: center;
+  }
+  .season {
+    gap: 64 px;
+  }
+  .season__content {
+    flex-direction: row;
+    justify-content: center;
+    width: 343px;
+    padding-top: 51px;
+    padding-bottom: 64px;
+  }
+  .season__title {
+    font-size: 32px;
+  }
+  .season__text {
+    text-align: center;
+    font-size: 14px;
+  }
+  .season__picture {
+    width: 343px;
+    padding-bottom: 85px;
   }
 }/*# sourceMappingURL=style.css.map */
