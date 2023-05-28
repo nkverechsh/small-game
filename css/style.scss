@@ -94,7 +94,7 @@ a {
             
         &:hover {
             border: 3px solid #44D2FF;
-            cursor: pointer;
+            // cursor: pointer;
         }
 
         &_1 {
@@ -118,6 +118,45 @@ a {
         padding-left: 32px;
         padding-bottom: 32px;
     }
-
 }
+
+.season {
+    background-image: url(../img/Game_1_Fon.jpg);
+    display: flex;
+    gap: 135px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+        &__content {
+            padding-top: 244px;
+            padding-bottom: 244px;
+            width: 580px;
+            display: flex;
+            gap: 32px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FFFFFF;
+        }
+
+        &__text {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+
+    &__picture {
+
+        width: 485px;
+    }
+}
+
 @import "mobile";

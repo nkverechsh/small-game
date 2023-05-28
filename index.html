@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>hw 2.3</title>
+    <title>hw 2.5</title>
 </head>
+
 <body>
     <div class="top center">
         <section class="top__content">
             <h1 class="title">Добро пожаловать на мой сайт !</h1>
             <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов
                 нажимай <strong>поехали</strong> и <strong>приступай</strong></p>
-            <a class="top__link" href="#">Поехали!</a>
+            <button type="button" class="top__link">Поехали!</button>
         </section>
     </div>
     <div class="game center">
@@ -30,7 +32,18 @@
             <a class="game__link" href="#">Игра 3</a>
         </div>
     </div>
-<script src="./js/script.js"></script>
+    <section class="season center">
+        <div class="season__content">
+            <h2 class="season__title">Времена года!</h2>
+            <p class="season__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+                какому времени года он относится</p>
+            <button type="button" class="top__link" onclick="oneGame()">Играть!</button>
+        </div>
+        <div class="season__picture">
+            <img src="./img/Game_1_F-male.svg" alt="Картинка игры: Времена года">
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

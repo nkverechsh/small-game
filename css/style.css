@@ -89,7 +89,6 @@ a {
 }
 .game__box:hover {
   border: 3px solid #44D2FF;
-  cursor: pointer;
 }
 .game__box_1 {
   background-image: url(../img/firstsectionGame1.jpg);
@@ -109,7 +108,49 @@ a {
   padding-bottom: 32px;
 }
 
+.season {
+  background-image: url(../img/Game_1_Fon.jpg);
+  display: flex;
+  gap: 135px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.season__content {
+  padding-top: 244px;
+  padding-bottom: 244px;
+  width: 580px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.season__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.season__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.season__picture {
+  width: 485px;
+}
+
+@media (max-width: 1200px) {
+  .season {
+    justify-content: center;
+  }
+}
 @media (max-width: 768px) {
+  .season {
+    justify-content: center;
+  }
   .center {
     padding-left: 16px;
     padding-right: 16px;
