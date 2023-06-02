@@ -1,3 +1,5 @@
+// hw 2.5 task 8:
+
 function oneGame() {
     let monthNumber = prompt('Введите номер месяца');
         switch (monthNumber) {
