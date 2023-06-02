@@ -58,8 +58,8 @@ let reverse = str.split('').reverse().join('');
 alert (reverse);
 
 // Задание 9
-var secondMass = [[1, 2, 3], [4, 5, 6]];
-var result = [].concat(...secondMass);
+let secondMass = [[1, 2, 3], [4, 5, 6]];
+let result = [].concat(...secondMass);
 
 alert (result);
 
