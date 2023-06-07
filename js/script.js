@@ -1,4 +1,5 @@
-// hw 2.5 task 8:
+// hw 2.5 ex8:
+// Времена года
 
 function oneGame() {
     let monthNumber = prompt('Введите номер месяца');
@@ -31,4 +32,25 @@ function oneGame() {
                 alert ('Некорректный номер месяца');
                 break;
         }
+}
+
+// hw2.7 ex11:
+// Запомни слова
+
+function secondGame() {
+    let quest = () => {
+        let frut = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+        frut = frut.sort(() => Math.random() - 0.5);
+        let question = alert (`Запомните первый и последний фрукт: \n ${frut.join(', ')}`);
+        let firstQuestion = prompt('Введите первый фрукт списка');
+        let secondQuestion = prompt('Введите второй фрукт списка');
+        if (firstQuestion.toUpperCase() == frut[0].toUpperCase() && secondQuestion.toUpperCase() == frut[6].toUpperCase()) {
+            alert ('Поздравляем, Вы выиграли!!!')}
+            else if (firstQuestion.toUpperCase() !== frut[0].toUpperCase() || secondQuestion.toUpperCase() !== frut[6].toUpperCase()){
+                alert ('К сожалению угадан только один фрукт! Попробуйте ещё раз)')}
+                else {
+                    alert ('гуляй, Вася')
+                }
+        }
+        quest();
 }

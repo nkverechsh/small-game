@@ -117,8 +117,8 @@ a {
   align-items: center;
 }
 .season__content {
-  padding-top: 244px;
-  padding-bottom: 244px;
+  padding-top: 282px;
+  padding-bottom: 282px;
   width: 580px;
   display: flex;
   gap: 32px;
@@ -138,12 +138,51 @@ a {
   line-height: 32px;
   color: #FFFFFF;
 }
-.season__picture {
-  width: 485px;
+.season .slider {
+  width: 100%;
+}
+
+.remember {
+  background-image: url(../img/Game_1_Fon.jpg);
+  display: flex;
+  gap: 135px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.remember .slider {
+  padding-top: 239px;
+  padding-bottom: 239px;
+  width: 100%;
+}
+.remember__content {
+  padding-top: 282px;
+  padding-bottom: 282px;
+  width: 580px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.remember__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.remember__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
 
 @media (max-width: 1200px) {
   .season {
+    justify-content: center;
+  }
+  .remember {
     justify-content: center;
   }
 }
@@ -179,7 +218,7 @@ a {
     justify-content: center;
     width: 343px;
     padding-top: 51px;
-    padding-bottom: 64px;
+    padding-bottom: 0px;
   }
   .season__title {
     font-size: 32px;
@@ -189,7 +228,28 @@ a {
     font-size: 14px;
   }
   .season__picture {
-    width: 343px;
     padding-bottom: 85px;
+  }
+  .remember {
+    flex-direction: column-reverse;
+    gap: 64 px;
+  }
+  .remember__content {
+    flex-direction: row;
+    justify-content: center;
+    width: 343px;
+    padding-top: 51px;
+    padding-bottom: 0px;
+  }
+  .remember__title {
+    font-size: 32px;
+  }
+  .remember__text {
+    text-align: center;
+    font-size: 14px;
+  }
+  .remember .slider {
+    padding-top: 0px;
+    padding-bottom: 90px;
   }
 }/*# sourceMappingURL=style.css.map */

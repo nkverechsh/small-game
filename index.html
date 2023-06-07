@@ -32,16 +32,33 @@
             <a class="game__link" href="#">Игра 3</a>
         </div>
     </div>
+
+<!-- Времена года -->
+
     <section class="season center">
         <div class="season__content">
             <h2 class="season__title">Времена года!</h2>
             <p class="season__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
                 какому времени года он относится</p>
-            <button type="button" class="top__link" onclick="oneGame();">Играть!</button>
+            <button type="button" class="top__link" onclick="oneGame();">Поехали!</button>
         </div>
         <div class="season__picture">
-            <img src="./img/Game_1_F-male.svg" alt="Картинка игры: Времена года">
+            <img class="slider" src="./img/Game_1_F-male.svg" alt="Картинка игры: Времена года">
         </div>
+    </section>
+
+<!-- Запомни слова -->
+
+    <section class="remember center">
+        <div class="remember__picture">
+            <img class="slider" src="./img/Game_2_F-male.svg" alt="Картинка игры: Запомни слова">
+        </div>
+        <div class="remember__content">
+            <h2 class="remember__title">Запомни слова!</h2>
+            <p class="remember__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button type="button" class="top__link" onclick="secondGame();">Играть</button>
+        </div>
+
     </section>
     <script src="./js/script.js"></script>
 </body>
