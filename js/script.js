@@ -44,9 +44,9 @@ function secondGame() {
         let question = alert (`Запомните первый и последний фрукт: \n ${frut.join(', ')}`);
         let firstQuestion = prompt('Введите первый фрукт списка');
         let secondQuestion = prompt('Введите второй фрукт списка');
-        if (firstQuestion.toUpperCase() == frut[0].toUpperCase() && secondQuestion.toUpperCase() == frut[6].toUpperCase()) {
+        if (firstQuestion.toUpperCase() == frut[0].toUpperCase() && secondQuestion.toUpperCase() == frut[frut.length - 1].toUpperCase()) {
             alert ('Поздравляем, Вы выиграли!!!')}
-            else if (firstQuestion.toUpperCase() !== frut[0].toUpperCase() || secondQuestion.toUpperCase() !== frut[6].toUpperCase()){
+            else if (firstQuestion.toUpperCase() !== frut[0].toUpperCase() || secondQuestion.toUpperCase() !== frut[frut.length - 1].toUpperCase()){
                 alert ('К сожалению угадан только один фрукт! Попробуйте ещё раз)')}
                 else {
                     alert ('гуляй, Вася')
