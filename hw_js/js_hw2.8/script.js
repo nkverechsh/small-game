@@ -38,7 +38,7 @@ function isPositive(num) {
                 conclusion.push(arr[i]);
             }
         }
-        return conclusion;
+        return arr.filter(mainRule);
     }
     
     console.log (filter([3, -4, 1, 9], isPositive)); 
