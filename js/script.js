@@ -1,4 +1,3 @@
-// hw 2.5 ex8:
 // Времена года
 
 function oneGame() {
@@ -34,7 +33,6 @@ function oneGame() {
         }
 }
 
-// hw2.7 ex11:
 // Запомни слова
 
 function secondGame() {
